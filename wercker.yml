@@ -24,7 +24,7 @@ build:
     # Build Hugo site
     - arjen/hugo-build:
         version: "0.16"
-        theme: hugo-agency-theme
+        theme: "hugo-agency-theme"
         config: config.toml
 
 deploy:
