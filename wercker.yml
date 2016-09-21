@@ -24,13 +24,21 @@ build:
     # Build Hugo site
     - arjen/hugo-build:
         version: "0.16"
-
-deploy:
-  steps:
-    #Deploy site to Amazon S3
+        theme: "hugo-agency-theme"
+        config: config.toml
     - wercker/s3sync:
         source_dir: public/
         delete-removed: true
         bucket-url: $AWS_BUCKET_URL
         key-id: $AWS_ACCESS_KEY_ID
         key-secret: $AWS_SECRET_ACCESS_KEY
+
+# deploy:
+#   steps:
+#     #Deploy site to Amazon S3
+#     - wercker/s3sync:
+#         source_dir: public/
+#         delete-removed: true
+#         bucket-url: $AWS_BUCKET_URL
+#         key-id: $AWS_ACCESS_KEY_ID
+#         key-secret: $AWS_SECRET_ACCESS_KEY
