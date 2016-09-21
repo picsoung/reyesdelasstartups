@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "/"
+baseurl = "http://losreyesdelasstartups.es.s3-website-eu-west-1.amazonaws.com/"
 languageCode = "en-us"
 title = "ReyesDeLasStartups"
 theme = "hugo-agency-theme"
