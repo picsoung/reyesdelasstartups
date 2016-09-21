@@ -1,4 +1,4 @@
-_VERSION=0.16
+VERSION=0.16
 HUGO_DOWNLOAD=hugo_${HUGO_VERSION}_linux-64bit.tgz
 
 set -x
@@ -9,4 +9,3 @@ if [ ! -e $CIRCLE_BUILD_DIR/bin/hugo ] || ! [[ `hugo version` =~ v${HUGO_VERSION
   wget https://github.com/spf13/hugo/releases/download/v${HUGO_VERSION}/${HUGO_DOWNLOAD}
   tar xvzf ${HUGO_DOWNLOAD} -C $CIRCLE_BUILD_DIR/bin/
 fi
-
