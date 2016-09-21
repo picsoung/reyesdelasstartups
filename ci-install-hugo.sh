@@ -1,4 +1,4 @@
-VERSION=0.16
+HUGO_VERSION=0.16
 HUGO_DOWNLOAD=hugo_${HUGO_VERSION}_linux-64bit.tgz
 
 set -x
