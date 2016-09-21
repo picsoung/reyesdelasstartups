@@ -15,7 +15,7 @@ dependencies:
 test:
   pre:
   override:
-    - hugo -v
+    - hugo
 
 deployment:
   s3up:
