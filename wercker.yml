@@ -29,7 +29,7 @@ build:
 
 deploy:
   steps:
-    # Deploy site to Amazon S3
+    #Deploy site to Amazon S3
     - wercker/s3sync:
         source_dir: public/
         delete-removed: true
