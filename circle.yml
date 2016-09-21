@@ -22,3 +22,4 @@ deployment:
     branch: master
     commands:
       - s3up -source=public/ -bucket=$BUCKET -key=$AWS_ACCESS_KEY_ID -secret=$AWS_SECRET_ACCESS_KEY
+      -region=eu-west-1
