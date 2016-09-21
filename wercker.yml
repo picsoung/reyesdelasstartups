@@ -3,7 +3,7 @@ build:
   steps:
     - arjen/hugo-build@1.11.0:
         version: "0.16"
-        theme: hugo-agency-theme
+        theme: hyde
         flags: --buildDrafts=true
     - s3sync:
         source_dir: public/
