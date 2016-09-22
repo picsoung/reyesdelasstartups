@@ -1,12 +1,10 @@
 # Site settings
-baseurl = "/"
+baseurl = "http://replace-this-with-your-hugo-site.com/"
 languageCode = "en-us"
-title = "ReyesDeLasStartups"
-theme = "agency"
+title = "Agency"
+theme = "hugo-agency-theme"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = ""
-relativeURLs = true
-publishdir = "public/"
 
 [params]
 
@@ -19,7 +17,7 @@ publishdir = "public/"
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "ReyesDeLasStartups"
+	name = "Your name"
 	description = "Your description"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
@@ -33,11 +31,12 @@ publishdir = "public/"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "losreyesdelasstartups@gmail.com"
+	email = "your@email.com"
 
-  # Link custom assets relative to /static
-  custom_css = []
-  custom_js  = []
+    # Link custom assets relative to /static
+    custom_css = []
+    custom_js  = []
+
 
 	# Navigation
 	[params.navigation]
@@ -60,9 +59,9 @@ publishdir = "public/"
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
+        url = "http://gohugo.io"
+        name = "External link"
+        weight = 10
 
 
 	# Hero section
@@ -76,7 +75,7 @@ publishdir = "public/"
 
 	# Services section
 	[params.services]
-    enable = true
+        enable = true
 		title = "Services"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 
@@ -99,7 +98,7 @@ publishdir = "public/"
 
 	# Portfolio section
 	[params.portfolio]
-    enable = true
+        enable = true
 		# All projects defined in their own files. You can find example projects
 		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
 		# at the root of this Hugo site.
@@ -108,15 +107,15 @@ publishdir = "public/"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 
 		[params.portfolio.modal]
-      client = "Client"
-      date = "Date"
-      category = "Category"
-      buttonText = "Close project"
+            client = "Client"
+            date = "Date"
+            category = "Category"
+            buttonText = "Close project"
 
 
     # About section
 	[params.about]
-		enable = true
+        enable = true
 		title = "About"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		endpoint = "Be part<br>of our<br>story!"
@@ -151,7 +150,7 @@ publishdir = "public/"
 
 	# Team section
 	[params.team]
-    enable = true
+        enable = true
 		title = "Our amazing team"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
@@ -190,7 +189,7 @@ publishdir = "public/"
 
 	# Client section
     [params.clients_list]
-    enable = true
+        enable = true
 
     	# All the clients' logos are stored under 'static/img/logos'.
     	# Replace them with your clients's logos.
@@ -213,7 +212,7 @@ publishdir = "public/"
 
 	# Contact section
 	[params.contact]
-    enable = true
+        enable = true
 		title = "Contact us"
 		subtitle  = "Lorem ipsum dolor sit amet consectetur."
 		buttonText = "Send message"
@@ -238,7 +237,7 @@ publishdir = "public/"
 
 	# Footer section
 	[params.footer]
-		enable = true
+        enable = true
 		copyright = "Published under the Apache License 2.0."
 
 		[[params.footer.social]]
