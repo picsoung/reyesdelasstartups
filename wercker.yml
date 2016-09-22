@@ -2,11 +2,19 @@ box: debian
 build:
   steps:
     - arjen/hugo-build@1.11.0:
-        version: "0.16"
+        version: "0.15"
         theme: "agency"
+        config: "config.toml"
         flags: --buildDrafts=true
+
+deploy:
+  steps:
+    - script:
+        name: Install packages
+        code: |
+          apt-get update
     - s3sync:
-        source_dir: public/
+        source_dir: public
         delete-removed: true
         bucket-url: $AWS_BUCKET_URL
         key-id: $AWS_ACCESS_KEY_ID
