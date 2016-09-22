@@ -1,17 +1,23 @@
+ id: halberom/hugo
+  cmd: /bin/sh
+dev:
+  steps:
+    - internal/watch:
+        cmd: /bin/sh
+        code: hugo server
+
 build:
   steps:
-    - arjen/hugo-build@1.11.0:
-        version: "0.15"
-        theme: "agency"
-        config: "config.toml"
-        flags: --buildDrafts=true
+    - script:
+        name: run hugo
+        code: |
+          hugo
 
 deploy:
+  box: debian
   steps:
-    - script:
-        name: Install packages
-        code: |
-          apt-get update
+    - install-packages:
+        packages: git ssh-client
     - s3sync:
         source_dir: public
         delete-removed: true
