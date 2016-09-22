@@ -1,4 +1,5 @@
- id: halberom/hugo
+box:
+  id: halberom/hugo
   cmd: /bin/sh
 dev:
   steps:
