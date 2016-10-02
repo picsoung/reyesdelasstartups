@@ -165,6 +165,7 @@ publishdir = "public/"
 			img = "rebeca.jpg"
 			name = "Rebeca Díaz"
 			position = "Apasionada de startups"
+			
 			# social = [
 			# 	["fa-twitter", "#"],
 			# 	["fa-facebook", "#"],
