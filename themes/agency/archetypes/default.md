@@ -1,4 +1,4 @@
 +++
 tags = []
-categories = []
+categories = ['Electronica','Musica','Niños']
 +++

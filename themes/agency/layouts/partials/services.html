@@ -12,10 +12,15 @@
         <div class="row text-center">
             {{ range .list }}
             <div class="col-md-4">
+
+              {{if .customSVG}}
+                <img class="spain-round-icon" src="{{ .customSVG}}" />
+              {{else}}
                 <span class="fa-stack fa-4x">
                     <i class="fa fa-circle fa-stack-2x text-primary"></i>
                     <i class="fa {{ .icon }} fa-stack-1x fa-inverse"></i>
                 </span>
+                {{end}}
                 <h4 class="service-heading">{{ .title | markdownify }}</h4>
                 <p class="text-muted">{{ .description | markdownify }}</p>
             </div>

@@ -4,7 +4,7 @@ languageCode = "en-us"
 title = "ReyesDeLasStartups"
 theme = "agency"
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = ""
+googleAnalytics = "UA-85106709-1"
 relativeURLs = true
 publishdir = "public/"
 
@@ -36,17 +36,20 @@ publishdir = "public/"
 	email = "losreyesdelasstartups@gmail.com"
 
   # Link custom assets relative to /static
-  custom_css = []
+  custom_css = ['css/custom.css']
   custom_js  = []
 
 	# Navigation
 	[params.navigation]
-		brand = "The Agency"
 		services = "Services"
 		portfolio = "Portfolio"
 		about = "About"
 		team = "Team"
-		contact = "Contact"
+		# contact = "Contact"
+
+		[params.navigation.brand]
+			url = "/img/logos/logo_arbol.png"
+			name = "Los Reyes de las Startups"
 
     # Add custom links. Those can be pre- and postpended to the default menu above.
     # Use the weight attribute to order your custom links. Uncomment the example
@@ -60,51 +63,51 @@ publishdir = "public/"
 
     # postpended links
     [[menu.postpend]]
-      url = "http://gohugo.io"
-      name = "External link"
-      weight = 10
+      # url = "http://gohugo.io"
+      # name = "External link"
+      # weight = 10
 
 
 	# Hero section
 	[params.hero]
 		# To change the background image of the hero, replace 'header-bg.jpg' in
 		# the 'static/img' folder.
-		title = "Welcome To Our Studio!"
-		subtitle = "It's nice to meet you"
-		buttonText = "Tell me more"
-
+		title = "Eres una startup Española y tienes un producto innovador y original?"
+		subtitle = "Te estamos esperando"
+		buttonText = "Inscribete ahora"
+		buttonURL = "https://losreyesdelasstartup.typeform.com/to/vrIAUy"
 
 	# Services section
 	[params.services]
     enable = true
-		title = "Services"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
+		title = "Reyes + Startups"
+		subtitle = "inspirado por el existo de la idea francesa del [Noel de La FrenchTech](http://noeldelafrenchtech.fr)"
 
         [[params.services.row]]
 
             [[params.services.row.list]]
-                icon = "fa-shopping-cart"
-                title = "E-Commerce"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                icon = "fa-tree"
+                title = "El concepto"
+                description = "Es un proyecto que quiere ayudar a que los consumidores conozcan de manera fácil y rápida los productos de las startups españolas y así estas Navidades hacer regalos innovadores y originales"
 
             [[params.services.row.list]]
-                icon = "fa-laptop"
-                title = "Responsive Design"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                icon = "fa-lightbulb-o"
+                title = "100% INNOVADOR"
+                description = "Estas navidades te ayudamos a encontrar los regalos mas innovadores y originales de nuestras startups españolas."
 
             [[params.services.row.list]]
-                icon = "fa-lock"
-                title = "Web"
-                description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+                customSVG = "/img/spain.svg"
+                title = "100% EMPRESAS ESPAÑOLAS"
+                description = "No sólo va a hacer los mejores regalos, sino que además, se apoyará la iniciativa empresarial y la creatividad española! No es genial?"
 
 	# Portfolio section
 	[params.portfolio]
-    enable = true
+    enable = false
 		# All projects defined in their own files. You can find example projects
 		# at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
 		# at the root of this Hugo site.
 		# For more informtion take a look at the README.
-		title = "Portfolio"
+		title = "Productos"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 
 		[params.portfolio.modal]
@@ -116,7 +119,7 @@ publishdir = "public/"
 
     # About section
 	[params.about]
-		enable = true
+		enable = false
 		title = "About"
 		subtitle = "Lorem ipsum dolor sit amet consectetur."
 		endpoint = "Be part<br>of our<br>story!"
@@ -152,45 +155,34 @@ publishdir = "public/"
 	# Team section
 	[params.team]
     enable = true
-		title = "Our amazing team"
-		subtitle = "Lorem ipsum dolor sit amet consectetur."
-		description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde."
+		title = "Nuestro maravilloso equipo"
+		subtitle = "Los elfos qui ayudan al Papa Noel"
+		description = "Quieres ayudar a los elfos? Contáctanos!"
 
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
 		[[params.team.members]]
-			img = "1.jpg"
-			name = "Kay Garland"
-			position = "Lead Designer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
+			img = "rebeca.jpg"
+			name = "Rebeca Díaz"
+			position = "Apasionada de startups"
+			# social = [
+			# 	["fa-twitter", "#"],
+			# 	["fa-facebook", "#"],
+			# 	["fa-linkedin", "#"]
+			# ]
 
 		[[params.team.members]]
-			img = "2.jpg"
-			name = "Larry Parker"
-			position = "Lead Marketer"
+			img = "nicolas.jpg"
+			name = "Nicolas Grenié"
+			position = "Developer and Startup Enthusiast "
 			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
-			]
-
-		[[params.team.members]]
-			img = "3.jpg"
-			name = "Diana Pertersen"
-			position = "Lead Developer"
-			social = [
-				["fa-twitter", "#"],
-				["fa-facebook", "#"],
-				["fa-linkedin", "#"]
+				["fa-twitter", "//twitter.com/picsoung"],
+				["fa-linkedin", "//linkedin.com/in/nicolasgrenie"]
 			]
 
 	# Client section
     [params.clients_list]
-    enable = true
+    enable = false
 
     	# All the clients' logos are stored under 'static/img/logos'.
     	# Replace them with your clients's logos.
@@ -214,49 +206,49 @@ publishdir = "public/"
 	# Contact section
 	[params.contact]
     enable = true
-		title = "Contact us"
-		subtitle  = "Lorem ipsum dolor sit amet consectetur."
-		buttonText = "Send message"
+		title = "Contáctanos"
+		subtitle  = "Cualquiera pregunta, los elfos te ayudaran"
+		buttonText = "Enviar mensaje"
 
 		# 'warning' defines error messages for invalid inputs
 		[params.contact.form.name]
-			text = "Your Name *"
+			text = "Nombre *"
 			warning = "Please enter your name."
 
 		[params.contact.form.email]
-			text = "Your Email *"
+			text = "Email *"
 			warning = "Please enter your email address."
 
-		[params.contact.form.phone]
-			text = "Your Phone *"
-			warning = "Please enter your phone number."
+		# [params.contact.form.phone]
+		# 	text = "Your Phone *"
+		# 	warning = "Please enter your phone number."
 
 		[params.contact.form.message]
-			text = "Your Message *"
+			text = "Tu mensaje *"
 			warning = "Please enter a message."
 
 
 	# Footer section
 	[params.footer]
 		enable = true
-		copyright = "Published under the Apache License 2.0."
+		copyright = "Echo con 🎉 en Barcelona"
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
-			link = "#"
+			link = "//twitter.com/reyesstartups"
 
 		[[params.footer.social]]
 			icon = "fa-facebook"
-			link = "#"
+			link = "https://www.facebook.com/Los-Reyes-de-las-Startups-613081255540770/"
 
-		[[params.footer.social]]
-			icon = "fa-linkedin"
-			link = "#"
-
-		[[params.footer.quicklinks]]
-			text = "Privacy Policy"
-			link = "#"
+		# [[params.footer.social]]
+		# 	icon = "fa-linkedin"
+		# 	link = "#"
 
 		[[params.footer.quicklinks]]
-			text = "Terms of Use"
-			link = "#"
+			text = "FAQ"
+			link = "https://docs.google.com/document/d/1HIyLtlCAgF-T4eXQo1HcsVvgUHKHBfO96k-msHiK7oM/edit?usp=sharing"
+
+		# [[params.footer.quicklinks]]
+		# 	text = "Terms of Use"
+		# 	link = "#"

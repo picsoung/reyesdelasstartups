@@ -1,5 +1,5 @@
 +++
-Categories = ["Development", "GoLang"]
+Categories = []
 Description = ""
 Tags = ["Development", "golang"]
 date = "2015-12-12T21:47:31-08:00"

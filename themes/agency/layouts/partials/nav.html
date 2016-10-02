@@ -9,21 +9,34 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">{{ with .Site.Params.navigation.brand }}{{ . | markdownify }}{{ end }}</a>
+            <a class="navbar-brand page-scroll" href="#page-top">
+
+              {{ with .Site.Params.navigation.brand }}
+              <div>
+                <img src="{{ .url }}" title="{{ .name}}" style="height: 50px;margin-top: -10px;vertical-align:middle;"/>
+                <span>{{ .name}}</span>
+                <img src="{{ .url }}" title="{{ .name}}" style="height: 50px;margin-top: -10px;vertical-align:middle;transform: scaleX(-1);"/>
+              </div>
+              {{ end }}
+            </a>
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav">
                 <li class="hidden">
                     <a href="#page-top"></a>
                 </li>
+
+                <!-- {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
+    <li><a href="{{ "/tags/" | relURL }}{{ $name | urlize }}">{{ $name }}</a></li>
+    {{ end }} -->
 
                 {{ range .Site.Menus.prepend }}
                 <li>
                     <a href="{{ .URL }}">{{ .Name | markdownify }}</a>
                 </li>
                 {{ end }}
-
+<!--
                 {{ if .Site.Params.services.enable }}
                 <li>
                     <a class="page-scroll" href="#services">{{ with .Site.Params.navigation.services }}{{ . | markdownify }}{{ end }}</a>
@@ -46,7 +59,7 @@
                 <li>
                     <a class="page-scroll" href="#team">{{ with .Site.Params.navigation.team }}{{ . | markdownify }}{{ end }}</a>
                 </li>
-                {{ end }}
+                {{ end }}  -->
 
                 {{ if .Site.Params.contact.enable }}
                 <li>
