@@ -59,6 +59,11 @@
   }
 }
 
+.navbar-default {
+    border-color: transparent;
+    background-color: white;
+}
+
 header {
   background:
     /*position: center center,
