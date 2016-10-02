@@ -81,7 +81,7 @@ publishdir = "public/"
 	[params.services]
     enable = true
 		title = "Reyes + Startups"
-		subtitle = "inspirado por el existo de la idea francesa del [Noel de La FrenchTech](http://noeldelafrenchtech.fr)"
+		subtitle = "inspirado en el existo de la idea francesa de [Noel de La FrenchTech](http://noeldelafrenchtech.fr)"
 
         [[params.services.row]]
 
@@ -96,7 +96,7 @@ publishdir = "public/"
                 description = "Estas navidades te ayudamos a encontrar los regalos mas innovadores y originales de nuestras startups españolas."
 
             [[params.services.row.list]]
-                customSVG = "/img/spain.svg"
+                customSVG = "/img/spain.png"
                 title = "100% EMPRESAS ESPAÑOLAS"
                 description = "No sólo va a hacer los mejores regalos, sino que además, se apoyará la iniciativa empresarial y la creatividad española! No es genial?"
 
