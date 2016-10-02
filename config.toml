@@ -162,10 +162,10 @@ publishdir = "public/"
 		# All team member's pictures are stored under 'static/img/team'.
 		# Replace them with your own too.
 		[[params.team.members]]
-			img = "rebeca.jpg"
+			img = "rebecca.jpg"
 			name = "Rebeca Díaz"
 			position = "Apasionada de startups"
-			
+
 			# social = [
 			# 	["fa-twitter", "#"],
 			# 	["fa-facebook", "#"],
