@@ -232,7 +232,7 @@ publishdir = "public/"
 	# Footer section
 	[params.footer]
 		enable = true
-		copyright = "Echo con 🎉 en Barcelona"
+		copyright = "Hecho con 🎉 en Barcelona"
 
 		[[params.footer.social]]
 			icon = "fa-twitter"
