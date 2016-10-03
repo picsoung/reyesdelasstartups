@@ -28,7 +28,7 @@
 
 {{ if and  (isset .Site.Params "authors") (isset .Params "author") }}
 <!-- Article Specific Open Graph Markup -->
-{{ $author := index .Site.Params.authors .Params.author }}
+<!-- {{ $author := index .Site.Params.authors .Params.author }}
 <meta property="article:author" content="https://www.facebook.com/{{ $author.social.facebook }}" />
 {{ end }}
 <meta property="article:publisher" content="https://www.facebook.com/{{ .Site.Params.social.facebook }}" />
@@ -39,7 +39,7 @@
 <meta property="article:section" content="{{ .Section }}" />
 {{ with .Params.tags }}{{ range first 6 . }}
 	<meta property="article:tag" content="{{ . }}" />
-{{ end }}{{ end }}
+{{ end }}{{ end }} -->
 
 <!-- Facebook Page Admin ID for Domain Insights -->
 {{ with .Site.Params.social.facebook_admin }}<meta property="fb:admins" content="{{ . }}" />{{ end }}
