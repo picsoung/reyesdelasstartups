@@ -254,6 +254,7 @@ publishdir = "public/"
 		# 	text = "Terms of Use"
 		# 	link = "#"
 		[params.social]
+			url = "http://www.losreyesdelasstartups.es"
 		  facebook        = "Los-Reyes-de-las-Startups-613081255540770"
 		  twitter     = "reyesstartups"
 		  twitter_domain  = "losreyesdelasstartups.es"
