@@ -19,8 +19,8 @@ publishdir = "public/"
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "ReyesDeLasStartups"
-	description = "Your description"
+	name = "Los Reyes de las Startups - Lista de regalos originales para Reyes"
+	description = "Estas navidades te ayudamos a encontrar los regalos mas innovadores y originales de nuestras startups españolas."
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -253,29 +253,12 @@ publishdir = "public/"
 		# [[params.footer.quicklinks]]
 		# 	text = "Terms of Use"
 		# 	link = "#"
-
-
-[params]
-	[params.social]
-	  facebook        = "Los-Reyes-de-las-Startups-613081255540770"
-	  twitter     = "reyesstartups"
-	  twitter_domain  = "losreyesdelasstartups.es"
-	  # googleplus      = "NozzleIo"
-	  # pinterest       = "nozzleio"
-	  # instagram       = "nozzleio"
-	  # youtube     = "nozzleio"
-	  # linkedin        = "nozzleio"
-		author      = "Reyes de las Startups"
-
-images  = [
+		[params.social]
+		  facebook        = "Los-Reyes-de-las-Startups-613081255540770"
+		  twitter     = "reyesstartups"
+		  twitter_domain  = "losreyesdelasstartups.es"
+			author      = "Reyes de las Startups"
+			images  = [
 	                "http://losreyesdelasstartups.es/img/opengraph/ofrece-regalo-original.png",
 	              ]
-
-	# An array of urls to any videos referenced in the post. The first video in the array will be the default shareable video.
-	# videos       = [
-	#                 "https://www.youtube.com/watch?v=WeON54DhMW4",
-	#                 "https://www.youtube.com/watch?v=dy5oTJajGOk",
-	#               ]
-
-	#The first 10 will be inserted into the Google "news_keyword" meta tag
-	news_keywords = [ "los reyes de las startups", "reyes", "navidad","startups", "startups españolas", "regalo original", "regalo español","geek","tech"]
+			news_keywords = [ "los reyes de las startups", "reyes", "navidad","startups", "startups españolas", "regalo original", "regalo español","geek","tech"]
