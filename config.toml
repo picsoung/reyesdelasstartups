@@ -156,7 +156,7 @@ publishdir = "public/"
 	[params.team]
     enable = true
 		title = "Nuestro maravilloso equipo"
-		subtitle = "Los elfos que ayudan a Papa Noe"
+		subtitle = "Los elfos que ayudan Papa Noel"
 		description = "Quieres ayudar a los elfos? Contáctanos!"
 
 		# All team member's pictures are stored under 'static/img/team'.
