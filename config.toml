@@ -20,7 +20,7 @@ publishdir = "public/"
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
 	name = "Los Reyes de las Startups - Lista de regalos originales para Reyes"
-	description = "Estas navidades te ayudamos a encontrar los regalos mas innovadores y originales de nuestras startups españolas."
+	description = "Estas navidades te ayudamos a encontrar los regalos más innovadores y originales de nuestras startups españolas."
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -93,7 +93,7 @@ publishdir = "public/"
             [[params.services.row.list]]
                 icon = "fa-lightbulb-o"
                 title = "100% INNOVADOR"
-                description = "Estas navidades te ayudamos a encontrar los regalos mas innovadores y originales de nuestras startups españolas."
+                description = "Estas navidades te ayudamos a encontrar los regalos más innovadores y originales de nuestras startups españolas."
 
             [[params.services.row.list]]
                 customSVG = "/img/spain.png"
@@ -156,7 +156,7 @@ publishdir = "public/"
 	[params.team]
     enable = true
 		title = "Nuestro maravilloso equipo"
-		subtitle = "Los elfos qui ayudan al Papa Noel"
+		subtitle = "Los elfos que ayudan a Papa Noe"
 		description = "Quieres ayudar a los elfos? Contáctanos!"
 
 		# All team member's pictures are stored under 'static/img/team'.
@@ -208,7 +208,7 @@ publishdir = "public/"
 	[params.contact]
     enable = true
 		title = "Contáctanos"
-		subtitle  = "Cualquiera pregunta, los elfos te ayudaran"
+		subtitle  = "Cualquier pregunta los elfos te ayudaran"
 		buttonText = "Enviar mensaje"
 
 		# 'warning' defines error messages for invalid inputs
