@@ -97,3 +97,41 @@ header {
   width: 110px;
   background: #fed136;
 }
+
+.product-header{
+  padding: 100px 0;
+}
+
+.product-banner{
+  padding: 51px 0px 55px;
+  background-image: url(/img/gift_banner.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: transparent;
+  background-size: cover;
+  opacity: 0.7;
+  margin-bottom: 40px;
+}
+
+.product-nav{
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px 2px rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+
+.product-nav a{
+  color: white;
+}
+
+.product-img{
+  box-shadow: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(230, 230, 230);
+  border-image: initial;
+}
+
+.product-images{
+  margin-top: 40px;
+}

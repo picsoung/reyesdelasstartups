@@ -1,0 +1,15 @@
+{{ $baseurl := .Site.BaseURL }}
+{{ partial "head.html" . }}
+{{ partial "nav.html" . }}
+
+{{ with (index .Site.Data.product (substr $.File.LogicalName 0 -3)) }}
+<div class="container">
+  {{ partial "product/block" . }}
+</div>
+{{ end }}
+
+{{ if .Site.Params.footer.enable }}
+    {{ partial "footer.html" . }}
+{{ end }}
+
+{{ partial "js.html" . }}

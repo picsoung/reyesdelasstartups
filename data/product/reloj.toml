@@ -1,0 +1,9 @@
+name="Reloj"
+price="20"
+category= "Moda"
+slug="relojwatch"
+images = [
+  "/img/products/reloj/01.jpg",
+  "/img/products/reloj/02.jpg",
+  "/img/products/reloj/03.jpg"
+]
