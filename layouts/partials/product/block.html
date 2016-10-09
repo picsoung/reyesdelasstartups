@@ -48,13 +48,13 @@
         {{end}}
       </div>
       <div class="product-price">
-        {{ if .price.discount }}
-          <del>€{{ .price.original}}</del>
-          &nbsp;
-          <b><ins style="text-decoration: none;">€{{ .price.discount}}</ins></b>
-        {{else}}
-            <span>€{{ .price.original}}</span>
-        {{end}}
+          {{ if .price_discount }}
+            <del>€{{ .price_original}}</del>
+            &nbsp;
+            <b><ins style="text-decoration: none;">€{{ .price_discount}}</ins></b>
+          {{else}}
+              <span>€{{ .price_original}}</span>
+          {{end}}
       </div>
       <hr>
       <div class="product-action">
