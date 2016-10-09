@@ -23,6 +23,6 @@ facebook = "https://www.facebook.com/showspeak/"
 twitter = "https://twitter.com/ShowSpeak"
 buy = "http://www.show-speak.com/collections/showspeak"
 
-# [price]
-  price_original = "39.99"
-  price_discount = "36.99"
+[price]
+original = "39.99"
+discount = "36.99"

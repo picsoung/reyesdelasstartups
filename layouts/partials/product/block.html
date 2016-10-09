@@ -48,12 +48,12 @@
         {{end}}
       </div>
       <div class="product-price">
-          {{ if .price_discount }}
-            <del>€{{ .price_original}}</del>
+          {{if .price.discount}}
+            <del>€{{ .price.original}}</del>
             &nbsp;
-            <b><ins style="text-decoration: none;">€{{ .price_discount}}</ins></b>
+            <b><ins style="text-decoration: none;">€{{ .price.discount}}</ins></b>
           {{else}}
-              <span>€{{ .price_original}}</span>
+              <span>€{{ .price.original}}</span>
           {{end}}
       </div>
       <hr>
@@ -68,11 +68,6 @@
       <div class="name">
 
       </div>
-      <!-- <ul>
-        <li>Name:</li>
-        <li>Price: {{ .price }}</li>
-        <li>Categories: {{ .category }}</a>
-      </ul> -->
     </div>
   </div>
 
