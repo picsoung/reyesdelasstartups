@@ -16,6 +16,7 @@ Le Show Speak est une enceinte Waterproof parfaite pour la douche comme pour le 
 
 *Le Show Speak est une enceinte sans fil et Waterproof qui permet d’écouter de la musique ou de téléphoner sous la douche de la manière la plus simple possible ! Equipé d’une forte enceinte et d’un microphone, il est le cadeau idéal pour Noël !*
 """
+
 [links]
 website = "http://www.show-speak.com/"
 facebook = "https://www.facebook.com/showspeak/"
@@ -23,5 +24,5 @@ twitter = "https://twitter.com/ShowSpeak"
 buy = "http://www.show-speak.com/collections/showspeak"
 
 [price]
-original = "39.99"
-discount = "36.99"
+  original = "39.99"
+  discount = "36.99"

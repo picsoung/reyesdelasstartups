@@ -32,7 +32,9 @@
       </p>
       <hr>
       <p>
-        {{ .description.long | markdownify }}
+        {{if .description.long}}
+          {{ .description.long | markdownify }}
+        {{end}}
       </p>
       <div>
         {{if .links.website}}
@@ -46,7 +48,7 @@
         {{end}}
       </div>
       <div class="product-price">
-        {{if .price.discount}}
+        {{ if .price.discount }}
           <del>€{{ .price.original}}</del>
           &nbsp;
           <b><ins style="text-decoration: none;">€{{ .price.discount}}</ins></b>
