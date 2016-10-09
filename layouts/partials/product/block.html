@@ -8,7 +8,6 @@
         </nav>
     </div>
     <div class="col-md-6">
-
         {{ with .images }}
           {{ range first 1 . }}
           <a href="{{ . }}" data-lightbox="image-1" data-title="My caption">
@@ -20,18 +19,58 @@
           {{ with .images }}
             {{ range after 1 . }}
             <a href="{{ . }}" data-lightbox="image-1" data-title="My caption">
-          <img class="product-img" height="200" width="200" src="{{ . }}" />
+          <img class="product-img" height="150" width="150" src="{{ . }}" />
           </a>
             {{ end }}
           {{ end }}
         </div>
     </div>
-    <div class="col-md-6">
-      <ul>
-        <li>Name: {{ .name }}</li>
+    <div class="col-md-6 product-section">
+      <h1>{{ .name }}</h1>
+      <p>
+        {{ .description.short}}
+      </p>
+      <hr>
+      <p>
+        {{ .description.long | markdownify }}
+      </p>
+      <div>
+        {{if .links.website}}
+           <a href="{{ .links.website}}" target="_blank">{{ .name}}</a> /
+        {{end}}
+        {{if .links.facebook}}
+           <a href="{{ .links.facebook}}" target="_blank">Facebook</a> /
+        {{end}}
+        {{if .links.twitter}}
+           <a href="{{ .links.twitter}}" target="_blank">Twitter</a>
+        {{end}}
+      </div>
+      <div class="product-price">
+        {{if .price.discount}}
+          <del>€{{ .price.original}}</del>
+          &nbsp;
+          <b><ins style="text-decoration: none;">€{{ .price.discount}}</ins></b>
+        {{else}}
+            <span>€{{ .price.original}}</span>
+        {{end}}
+      </div>
+      <hr>
+      <div class="product-action">
+        {{with .links.buy}}
+          <a href="{{.}}" target="_blank"><button type="button" class="btn btn-primary">Ofrezco !</button></a>
+        {{end}}
+        <p>
+          Categoria: {{ .category}}
+        </p>
+      </div>
+      <div class="name">
+
+      </div>
+      <!-- <ul>
+        <li>Name:</li>
         <li>Price: {{ .price }}</li>
         <li>Categories: {{ .category }}</a>
-      </ul>
+      </ul> -->
     </div>
   </div>
 

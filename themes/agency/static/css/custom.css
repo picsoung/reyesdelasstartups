@@ -135,3 +135,42 @@ header {
 .product-images{
   margin-top: 40px;
 }
+
+.product-section{
+  font-weight: 100;
+}
+.product-section h1 {
+  margin: 0;
+}
+.product-section a{
+  font-weight: 300;
+  color: #265C83;
+}
+
+.product-section a:link,
+.product-section a:visited { color: #265C83; }
+.product-section a:hover   { color: #7FDBFF; }
+.product-section a:active  {
+  transition: color .3s;
+  color: #007BE6;
+}
+
+.product-price{
+  margin: 20px 0 20px 0;
+}
+.product-price del{
+  font-size: 18px;
+}
+.product-price ins{
+  font-size: 28px;
+}
+
+.product-action .btn-primary{
+  border-color: #e82c25;
+  background-color: #e82c25;
+  font-size: 30px;
+}
+
+.product-action p{
+  margin-top: 20px;
+}
