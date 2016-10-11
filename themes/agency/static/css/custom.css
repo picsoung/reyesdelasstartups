@@ -36,7 +36,7 @@
 .navbar-default .nav li a {
     color: #ccc;
     text-align: center;
-    font-size: 12px;
+    /*font-size: 0.75em;*/
     padding-left: 10px;
 }
 
@@ -63,6 +63,15 @@
     border-color: transparent;
     background-color: white;
 }
+
+/* Added by Vifespoir */
+.navbar-default.navbar-shrink {
+  padding: 0;
+}
+.navbar-shrink img {
+  height: 30px;
+}
+/* End */
 
 header {
   background:
