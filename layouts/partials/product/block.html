@@ -2,9 +2,13 @@
   <style media="screen">
 
   </style>
-      <div class="product-banner">
+    <div class="product-banner">
         <nav class = "product-nav">
-           <a href="/"> inicio</a> / <a href="/"> {{ .category }}</a> / {{ .name }}
+           <a href="/"> inicio</a> /
+           {{ range .category }}
+             {{ $cat := (urlize (lower (replace (replace (replace . "ó" "o") "í" "i") "ú" "u") ) )}}
+             <a href="/{{$cat}}">{{ . | markdownify }}</a>
+           {{ end }} / {{ .name }}
         </nav>
     </div>
     <div class="col-md-6">
@@ -59,10 +63,13 @@
       <hr>
       <div class="product-action">
         {{with .links.buy}}
-          <a href="{{.}}" target="_blank"><button type="button" class="btn btn-primary">Ofrezco !</button></a>
+          <a href="{{.}}" target="_blank"><button type="button" class="btn btn-primary">Quiero !</button></a>
         {{end}}
         <p>
-          Categoria: {{ .category}}
+          Categoria: {{ range .category }}
+            {{ $cat := (urlize (lower (replace (replace (replace . "ó" "o") "í" "i") "ú" "u") ) )}}
+            <a href="/{{$cat}}">{{ . | markdownify }}</a>
+            {{end}}
         </p>
       </div>
       <div class="name">

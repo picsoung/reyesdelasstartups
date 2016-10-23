@@ -1,6 +1,6 @@
 name="Slow Peak"
-category= "Moda"
-slug="relojwatch"
+category= ["Moda y Belleza"]
+slug="slow-peak"
 images = [
   "/img/products/reloj/01.jpg",
   "/img/products/reloj/02.jpg",

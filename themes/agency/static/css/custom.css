@@ -111,6 +111,7 @@ header {
   background-size: cover;
   opacity: 0.7;
   margin-bottom: 40px;
+  max-height:168px;
 }
 
 .product-nav{
@@ -173,4 +174,27 @@ header {
 
 .product-action p{
   margin-top: 20px;
+}
+
+.portfolio-caption{
+  text-align: center;
+}
+
+.portfolio-caption:before,.portfolio-caption:after{
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20%;
+  height: 1px;
+  bottom: 16px;
+  left: 50%;
+  margin-left: 60px;
+  background-color: #ededed;
+}
+
+.portfolio-caption:after{content: "";
+  left: auto;
+  right: 50%;
+  margin-left: 0px;
+  margin-right: 60px;
 }

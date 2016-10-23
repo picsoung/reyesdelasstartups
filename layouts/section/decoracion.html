@@ -7,12 +7,14 @@
     <div class="row">
       <div class="product-banner">
           <nav class = "product-nav">
-            <h1>Todos</h1>
-             <a href="/"> inicio</a> / <a href="/products"> Todos</a>
+            <h1>Decoración</h1>
+             <a href="/"> inicio</a> / <a href="/decoración">Decoración</a>
           </nav>
       </div>
       {{ range .Site.Data.product }}
-        {{ partial "product/li" . }}
+        {{ if in .category "Decoración" }}
+          {{ partial "product/li" . }}
+        {{end}}
       {{ end }}
       </div>
   </div>
