@@ -1,4 +1,16 @@
 /* added by picsoung */
+@font-face {
+	font-family: 'Dessau';
+	src: url('../fonts/DessauMedium.eot');
+	src: url('../fonts/DessauMedium.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/DessauMedium.woff') format('woff'),
+		url('../fonts/DessauMedium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+
+
 .navbar-header{
   text-align: center;
   width: 100%;
@@ -15,7 +27,7 @@
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Dessau","Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
     color: #e82c25;
     float: none;
     margin: 0 !important;
