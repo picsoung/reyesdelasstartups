@@ -1,0 +1,29 @@
+name="Wattio Pack Confort"
+category= ["Tecnología"]
+slug="wattio-pack-confort"
+images = [
+  "/img/products/wattio-pack-confort/01.png",
+  "/img/products/wattio-pack-confort/02.png",
+  "/img/products/wattio-pack-confort/03.png"
+]
+
+[description]
+short = "Controlas tu calefacción desde el Smartphone"
+long = """
+Todo lo necesario para controlar tu calefacción desde un Smartphone.
+
+Así, tu hogar estará siempre a la temperatura perfecta y además, harás un consumo energético mucho más eficiente.
+
+Este pack incluye:
+ Un Gate: Centralita domótica de pantalla táctil. Un Thermic: Termostato inteligente.
+"""
+
+[links]
+website = "https://wattio.com/es/content/confort-6"
+facebook = "https://www.facebook.com/wattio"
+twitter = "https://twitter.com/wattiocorp"
+buy = "https://wattio.com/es/tienda/pack-confort-9"
+
+[price]
+original = "194,90"
+discount = ""

@@ -133,7 +133,15 @@ header {
   text-transform: uppercase;
 }
 
-.product-nav a{
+.breadcumb-nav{
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px 2px rgb(0, 0, 0);
+  text-transform: uppercase;
+	padding-top: 50px;
+}
+
+.product-nav a, .breadcumb-nav a{
   color: white;
 }
 

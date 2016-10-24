@@ -7,12 +7,12 @@
     <div class="row">
       <div class="product-banner">
           <nav class = "product-nav">
-            <h1>Decoración</h1>
-             <a href="/"> inicio</a> / <a href="/decoracion">Decoración</a>
+            <h1>Tecnología</h1>
+             <a href="/"> inicio</a> / <a href="/tecnologia">Tecnología</a>
           </nav>
       </div>
       {{ range .Site.Data.product }}
-        {{ if in .category "Decoración" }}
+        {{ if in .category "Tecnología" }}
           {{ partial "product/li" . }}
         {{end}}
       {{ end }}

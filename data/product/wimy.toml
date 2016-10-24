@@ -1,0 +1,30 @@
+name="WIMy"
+category= ["Tecnología"]
+slug="wimy"
+images = [
+  "/img/products/wimy/wimy_reyes_1.png",
+  "/img/products/wimy/wimy_reyes_2.png",
+  "/img/products/wimy/wimy_reyes_3.png"
+]
+
+[description]
+short = "El gadget para que no vuelvas a perder nada (ni a nadie) de vista"
+long = """
+WIMy es un pequeño gadget que se vincula con tu smartphone a través de una app y te ayuda a no perder de vista lo que más quieres (niños, mascotas), así como objetos de valor (llaves, cartera, bolso, etc).
+
+Úsalo como llavero, en el bolsillo o pegado a aquello que no quieras perder. Si no sabes donde has dejado un objeto, la pantalla radar te indicará dónde se encuentra dentro del rango. Hazlo sonar e iluminarse para encontrarlo más rápidamente.
+
+Puedes usar la ayuda de la comunidad del resto de usuarios de WIMy para encontrar tus objetos cuando estén fuera de tu alcance, al mismo tiempo que ayudas a los demás a encontrar sus objetos.
+
+Compatible con smartphones Android 4.4 o superior y iPhone 4S en adelante, además de Bluetooth 4.
+"""
+
+[links]
+website = "http://wimyapp.es"
+facebook = "http://facebook.com/WIMyTag"
+twitter = "http://twitter.com/WIMy_"
+buy = "http://wimyapp.es/es/tienda.html"
+
+[price]
+original = "34.98"
+discount = "26.99"

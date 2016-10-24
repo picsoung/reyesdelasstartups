@@ -3,7 +3,7 @@
 
   </style>
     <div class="product-banner">
-        <nav class = "product-nav">
+        <nav class = "breadcumb-nav">
            <a href="/"> inicio</a> /
            {{ range .category }}
              {{ $cat := (urlize (lower (replace (replace (replace . "ó" "o") "í" "i") "ú" "u") ) )}}
@@ -63,7 +63,7 @@
       <hr>
       <div class="product-action">
         {{with .links.buy}}
-          <a href="{{.}}" target="_blank"><button type="button" class="btn btn-primary">Quiero !</button></a>
+          <a href="{{.}}" target="_blank"><button type="button" class="btn btn-primary">Lo quiero !</button></a>
         {{end}}
         <p>
           Categoria: {{ range .category }}

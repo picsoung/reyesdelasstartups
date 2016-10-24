@@ -1,0 +1,30 @@
+name="Fillin Lamp"
+category= ["Decoración"]
+slug="fillin-lamp"
+images = [
+  "/img/products/fillin-lamp/01.jpg",
+  "/img/products/fillin-lamp/02.jpg",
+  "/img/products/fillin-lamp/03.jpg"
+]
+
+[description]
+short = "Lámpara de sobremesa de cristal y madera"
+long = """
+Fillin Lamp es una lámpara de sobremesa que, gracias a su pantalla de cristal, se puede llenar con diversos materiales para crear su propia luz.
+
+Es una lámpara poética que se puede personalizar y adaptar a cualquier espacio.
+
+El usuario experimenta con sus ideas más intuitivas y se convierte en un diseñador de la luz.
+
+Fillin Lamp está diseñada de manera responsable con nuestro entorno y está fabricada con materiales nobles y sostenibles.
+"""
+
+[links]
+website = "http://fillinlamp.com"
+facebook = "https://www.facebook.com/Fillin-Lamp-1505689743064476/"
+twitter = "https://twitter.com/FillinLamp"
+buy = "http://fillinlamp.com"
+
+[price]
+original = "280"
+discount = ""
