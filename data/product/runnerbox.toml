@@ -1,0 +1,23 @@
+name="Runnerbox"
+category= ["Deporte"]
+slug="runnerbox"
+images = [
+  "/img/products/runnerbox/01.jpg",
+  "/img/productsrunnerbox/02.jpg"
+]
+
+[description]
+short = "Caja regalo de carreras para runners"
+long = """
+Caja regalo que incluye una inscripción a elegir entre más de 1000 carreras de asfalto y montaña, con una validez de 2 años.
+"""
+
+[links]
+website = "https://runnerbox.es/producto/los-heroes-llevan-zapatillas/"
+facebook = "https://www.facebook.com/runnerboxes/"
+twitter = "https://twitter.com/runnerboxes"
+buy = "https://runnerbox.es/producto/los-heroes-llevan-zapatillas/"
+
+[price]
+original = "29.90"
+discount = ""
