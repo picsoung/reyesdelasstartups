@@ -3,13 +3,16 @@ category= ["Deporte"]
 slug="runnerbox"
 images = [
   "/img/products/runnerbox/01.jpg",
-  "/img/products/runnerbox/02.jpg" 
+  "/img/products/runnerbox/02.jpg"
 ]
 
 [description]
 short = "Caja regalo de carreras para runners"
 long = """
-Caja regalo que incluye una inscripción a elegir entre más de 1000 carreras de asfalto y montaña, con una validez de 2 años.
+**¡Sorpréndele con el nuevo regalo para runners!**
+ Esta caja regalo incluye un código de inscripción válido para más de 1000 carreras de asfalto y montaña.
+
+Además, se pueden **guardar dentro los dorsales de las carreras** de toda la temporada para que no se pierdan por el cajón.
 """
 
 [links]
