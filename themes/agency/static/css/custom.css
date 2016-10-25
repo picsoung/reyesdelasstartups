@@ -71,6 +71,10 @@
   }
 }
 
+header .intro-text{
+	padding-bottom: 50px;
+}
+
 .navbar-default {
     border-color: transparent;
     background-color: white;

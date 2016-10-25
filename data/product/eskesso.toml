@@ -1,0 +1,32 @@
+name="Eskesso"
+category= ["Gourmet"]
+slug="eskesso"
+images = [
+  "/img/products/eskesso/01.jpg",
+  "/img/products/eskesso/02.jpg",
+  "/img/products/eskesso/03.jpg"
+]
+
+[description]
+short = "Robot doméstico Wi-Fi para cocinar a baja temperatura y al vacío"
+long = """
+Eskesso es el robot de cocina al vacío inteligente que te permite cocinar como un chef en casa incluso cuando no estás en ella.
+
+Practica una de las técnicas de alta cocina más saludable de una forma muy sencilla en tu propia casa con la única ayuda de tu teléfono móvil.
+
+En la app de Eskesso podrás encontrar una enorme cantidad de recetas guiadas paso a paso para que cocineros de todos los niveles puedan conseguir los mejores resultados.
+
+Si tienes poco tiempo para dedicar a la cocina, Eskesso te permite controlar tus recetas incluso cuando estás fuera de casa, sacando el mejor partido de tu tiempo.
+
+*¡ No pierdas la oportunidad de conseguirlo al mejor precio!*
+"""
+
+[links]
+website = "http://www.eskesso.com/es"
+facebook = "http://www.facebook.com/eskesso/"
+twitter = "http://twitter.com/eskesso"
+buy = "https://www.kickstarter.com/projects/eskesso/eskesso-smart-sous-vide-cooking-machine"
+
+[price]
+original = "199.00"
+discount = "129.00"

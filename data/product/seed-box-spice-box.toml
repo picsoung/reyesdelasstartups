@@ -1,0 +1,52 @@
+name="SeedBox SpiceBox"
+category= ["Ecológico"]
+slug="seed-box-spice-box"
+images = [
+  "/img/products/seed-box-spice-box/01.jpg",
+  "/img/products/seed-box-spice-box/02.jpg",
+  "/img/products/seed-box-spice-box/03.jpg"
+]
+
+[description]
+short = "Mesa de cultivo especiero"
+long = """
+- HUERTO URBANO DE PEREJIL, ALBAHACA, ORÉGANO Y CILANTRO.
+
+- 100% ecológico.
+
+- Los brotes se pueden ver en 8 días.
+
+- Cosecha: A partir de 40 días en ext. o int. soleado.
+
+- Siembra: Todo el año en interior.
+
+- Luz: Mínimo 2 horas de sol directo al día.
+
+- Riego: Semanal.
+
+- Abono: Mensual.
+
+- Ideal para salsas, cócteles e infusiones.
+
+- Es una maceta de polipropileno celular que incorpora cuatro sobres de semillas de especies aromáticas seleccionadas.
+
+- Capacidad: 2 L.
+
+- Producto (An-Al-Pr): 25 x 12.5 x 8 cm.
+
+- Embalaje (An-Al-Pr): 25 x 12.5 x 8 cm.
+
+- Con materiales 100% reciclables.
+
+- Idiomas: ES y EN.
+"""
+
+[links]
+website = "http://www.mesasdecultivoonline.com/shop/es/"
+facebook = "https://www.facebook.com/boxseedbox/"
+twitter = "https://twitter.com/boxseedbox"
+buy = "http://seedboxhuertosurbanos.es/"
+
+[price]
+original = "9.90"
+discount = "8.90"
