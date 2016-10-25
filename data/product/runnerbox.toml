@@ -3,7 +3,7 @@ category= ["Deporte"]
 slug="runnerbox"
 images = [
   "/img/products/runnerbox/01.jpg",
-  "/img/productsrunnerbox/02.jpg"
+  "/img/products/runnerbox/02.jpg" 
 ]
 
 [description]
