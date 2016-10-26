@@ -15,7 +15,7 @@
         {{ with .images }}
           {{ range first 1 . }}
           <a href="{{ . }}" data-lightbox="image-1" data-title="My caption">
-        <img class="product-img" height="500" width="500" src="{{ . }}" />
+        <img class="product-img" src="{{ . }}" />
         </a>
           {{ end }}
         {{ end }}
@@ -23,7 +23,7 @@
           {{ with .images }}
             {{ range after 1 . }}
             <a href="{{ . }}" data-lightbox="image-1" data-title="My caption">
-          <img class="product-img" height="150" width="150" src="{{ . }}" />
+          <img class="product-img product-thumbnail" src="{{ . }}" />
           </a>
             {{ end }}
           {{ end }}
