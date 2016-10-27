@@ -1,9 +1,9 @@
 <!-- <li><a href="/product/{{ .slug }}/">{{ .name }}</a></li> -->
 
 {{ $baseurl := .Site.BaseURL }}
-<div class="col-md-3 col-sm-4">
+<div class="col-md-4 col-sm-4">
   <a href="/product/{{ .slug }}/">
-    <img src="{{ index .images 0}}" class="img-responsive" alt="">
+    <img src="{{ index .images 0}}" class="img-responsive img-product-grid" alt="">
     <div class="portfolio-caption">
         <h4>{{ .name | markdownify }}</h4></a>
         <p>{{ .description.short | markdownify}}</p>

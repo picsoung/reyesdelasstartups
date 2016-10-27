@@ -4,7 +4,8 @@
         <div class="intro-text">
             <div class="intro-lead-in">{{ with .Site.Params.hero.title }}{{ . | markdownify }}{{ end }}</div>
             <div class="intro-heading">{{ with .Site.Params.hero.subtitle }}{{ . | markdownify }}{{ end }}</div>
-            <a href="{{.Site.Params.hero.buttonURL}}" class="page-scroll btn btn-xl" target="_blank">{{ with .Site.Params.hero.buttonText }}{{ . | markdownify }}{{ end }}</a>
+            <a href="{{.Site.Params.hero.buttonURL}}" class="page-scroll btn btn-xl" target="_blank"
+            onclick="trackOutboundLink('{{ .Site.Params.hero.buttonURL}}'); return false;">{{ with .Site.Params.hero.buttonText }}{{ . | markdownify }}{{ end }}</a>
         </div>
         <div id="name">
           <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://app.mailjet.com/widget/iframe/20tH/1Os" width="360" height="358"></iframe>
