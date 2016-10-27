@@ -1,0 +1,32 @@
+name="Ranta Scarf"
+category= ["Moda y Belleza"]
+slug="ranta-scarf"
+images = [
+  "/img/products/ranta-scarf/01.jpg",
+  "/img/products/ranta-scarf/02.jpg",
+  "/img/products/ranta-scarf/03.jpg"
+]
+
+[description]
+short = "Kit de tejer - 100% Lana fina - Bufanda"
+long = """
+NIVEL FÁCIL EL KIT CONTIENE:
+
+* 4 OVILLOS 100% LANA FINA
+* 2 AGUJAS DE MADERA DE HAYA DE 8MM / UK 0 / US 11
+* EL PATRÓN
+* UNA AGUJITA LANERA
+* LA ETIQUETA WAK
+* EL PACKAGING WAK
+* COLOR DE LA IMAGEN: GRIS JASPEADO MEDIDAS 173 CM = ANCHO 81 CM = LARGO
+"""
+
+[links]
+website = "http://www.weareknitters.es/kits-tejer/bufandas/ranta-scarf"
+facebook = "https://facebook.com/WeAreKnitters.e/"
+twitter = "https://twitter.com/weareknittersES"
+buy = "http://www.weareknitters.es/kits-tejer/bufandas/ranta-scarf"
+
+[price]
+original = "66.00"
+discount = ""
