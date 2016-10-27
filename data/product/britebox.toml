@@ -1,0 +1,31 @@
+name="BriteBox by BriteShoes"
+category= ["Moda y Belleza"]
+slug="britebox"
+images = [
+  "/img/products/britebox/01.png",
+  "/img/products/britebox/01.png"
+]
+
+[description]
+short = "El regalo perfecto es un par de zapatos personalizados. El regalo perfecto es un BriteBox."
+long = """
+Cada **BriteBox** lleva dentro la llave a un mundo lleno de posibilidades, diseños, colores y modelos. La afortunada que lo reciba, podrá diseñar y personalizar cualquier par de **BriteShoes** y crear así su zapato perfecto.
+
+Despreocúpate de acertar con la talla, el color o el modelo. Ella no tendrá más que dejar su imaginación volar y personalizar su par de zapatos soñados y nosotros los fabricamos, a mano en exclusiva para ella.
+
+Comodidad y estilo no están reñidos. Cada par de BriteShoes está hecho a mano, en España y lo más importante 100% según el diseño y necesidades de nuestras clientas.
+
+Tanto si tienes una boda, una cena, un evento o simplemente te quieres dar un capricho, un par de zapatos personalizados es una gran idea.
+
+Así que ya sabéis, si tenéis que hacer un regalo especial o si alguien os quiere hacer un regalo y le queréis dar alguna pista, el **BriteBox** es sin duda, una gran solución!
+"""
+
+[links]
+website = "http://briteshoes.com/britebox-el-regalo-perfecto-es-un-par-de-zapatos-personalizados/"
+facebook = "https://facebook.com/BriteShoeCompany/"
+twitter = "https://twitter.com/briteshoes"
+buy = "http://briteshoes.com/producto/britebox-el-regalo-que-ella-se-haria/"
+
+[price]
+original = "180.00"
+discount = "160.00"
