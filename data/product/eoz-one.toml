@@ -1,0 +1,28 @@
+name="EOZ One"
+category= ["Tecnología"]
+slug="eoz-one"
+images = [
+  "/img/products/eoz-one/01.jpg",
+  "/img/products/eoz-one/02.jpg",
+  "/img/products/eoz-one/03.jpg"
+]
+
+[description]
+short = "Auriculares Bluetooth para personas con estilo"
+long = """
+El EOZ One es el resultado del encuentro entre dos mundos: Moda y Audio de gama alta.
+
+Así que hemos diseñado nuestros auriculares para que su estilo y elegancia estén equiparados con la calidad de su sonido, por eso usamos la mejor piel y el mejor aluminio.
+
+El EOZ One proporciona una experiencia sonora superior, con bajos potentes y medios y agudos cristalinos y súper definidos.
+"""
+
+[links]
+website = "http://www.eozaudio.com"
+facebook = "https://www.facebook.com/eozaudio/"
+twitter = "https://twitter.com/eozaudio"
+buy = "https://www.eozaudio.com/es/tienda/"
+
+[price]
+original = "139.00"
+discount = "119.00"
