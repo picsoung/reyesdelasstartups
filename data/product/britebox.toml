@@ -3,7 +3,9 @@ category= ["Moda y Belleza"]
 slug="britebox"
 images = [
   "/img/products/britebox/01.png",
-  "/img/products/britebox/01.png"
+  "/img/products/britebox/02.png",
+  "/img/products/britebox/03.png",
+  "/img/products/britebox/04.png"
 ]
 
 [description]
