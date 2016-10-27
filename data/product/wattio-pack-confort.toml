@@ -1,4 +1,4 @@
-name="Wattio Pack Confort"
+name="Wattio Confort - Termostato Inteligente"
 category= ["Tecnología"]
 slug="wattio-pack-confort"
 images = [
@@ -8,14 +8,38 @@ images = [
 ]
 
 [description]
-short = "Controlas tu calefacción desde el Smartphone"
+short = "Controla la temperatura de tu casa desde el móvil. Cuando llegues, estará a la temperatura perfecta. Sin cuotas."
 long = """
 Todo lo necesario para controlar tu calefacción desde un Smartphone.
 
 Así, tu hogar estará siempre a la temperatura perfecta y además, harás un consumo energético mucho más eficiente.
 
 Este pack incluye:
- Un Gate: Centralita domótica de pantalla táctil. Un Thermic: Termostato inteligente.
+
+  - Un Gate: Centralita domótica inteligente de pantalla táctil a color
+
+  - Un Thermic: Termostato inteligente controlable desde el móvil.
+
+   **Thermic:**
+
+  - Controla la calefacción desde el Smartphone y encuentra tu casa siempre a la temperatura perfecta.
+  - Haz un consumo más eficiente de tu calefacción y lo notarás en tu bolsillo.
+  - Automatiza la calefacción gracias a los calendarios que podrás programar fácilmente desde la aplicación Wattio.
+  - El único termostato del mercado que colabora con otros dispositivos domótico para ampliar el ahorro y el confort. Por ejemplo, junto al Wattio POD te permite controlar tus radiadores eléctricos enchufables.
+  - El único termostato del mercado que colabora con otros dispositivos domótico para ampliar el ahorro y el confort. Por ejemplo, junto al Wattio POD te permite controlar tus radiadores eléctricos enchufables.
+  - Su instalación es muy sencilla. Podrás hacerlo tú mismo/a siguiendo el manual.
+  - Además de notarlo en tu bolsillo ganarás en comodidad y confort.
+
+   **Gate:**
+
+  - Conecta los demás dispositivos Wattio a Internet de manera segura (VPN).
+  - Permite ampliar tu instalación Wattio sin límite de dispositivos.
+  - Se encarga de automatizar todas las reglas, calendarios y alertas que configures.
+  - Te puedes conectar a él de forma remota a través de las aplicaciones Wattio para iPhone y Android.
+  - Te permite controlar tus dispositivos cuando estés en casa a través de su pantalla táctil, incluso sin acceso a Internet de manera local.
+  - Te ofrece la predicción del tiempo de tu ciudad.
+  - Podrás colocarlo donde tú quieras. Sobre una mesa, una estantería o atornillado a la pared. Su cuidado diseño hará que no desentone en ningún lugar de tu casa.
+
 """
 
 [links]
