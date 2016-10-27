@@ -1,0 +1,33 @@
+name="The Wonder Trip"
+category= ["Inclasificable"]
+slug="the-wonder-trip"
+images = [
+  "/img/products/the-wonder-trip/01.jpg",
+  "/img/products/the-wonder-trip/01.jpg"
+]
+
+[description]
+short = "Escápate 2/3 días a una ciudad Europea por sorpresa. Alojamiento, vuelo y guía exclusiva todo incluido por 149€."
+long = """
+**The Wonder Trip** es una manera innovadora de conocer nuevos lugares.
+
+Solo tienes que escoger un fin de semana, uno o varios amigos y... ¡Listo!.
+
+Nosotros nos encargamos de prepararte una escapada sorpresa sin que te tengas que preocupar de nada más. Estaremos dándote pistas acerca de tu destino para que calmes tu curiosidad un poco.
+
+Tu decides cuando descubrir dónde en Europa irás a caer: 24, 48 o 72 horas antes de embarcar.
+
+¡Emocionante! Sea para tí o para regalar, no dudes en probar en esta experiencia única.
+
+**5 euros por viajero con el código WONDEREYES**
+"""
+
+[links]
+website = "http://www.thewondertrip.com"
+facebook = "https://www.facebook.com/TheWonderTrip/"
+twitter = "https://twitter.com/thewondertrip"
+buy = "https://www.thewondertrip.com/"
+
+[price]
+original = "149.00"
+discount = "144.00"
