@@ -1,0 +1,38 @@
+name="Pack Familia ILUSIÓN+ vino solidario"
+category= ["Gourmet"]
+slug="ilusion-mas"
+images = [
+  "/img/products/ilusion-mas/01.jpg",
+  "/img/products/ilusion-mas/02.png",
+  "/img/products/ilusion-mas/03.jpg"
+]
+
+[description]
+short = "Pack solidario de 6 vinos: 3 tintos, 1 blanco, 1 rosado y 1 cava, en caja de madera."
+long = """
+Creamos vinos y cavas de calidad con responsabilidad social, donde parte del precio se destina directamente a fundaciones para ayudar a enfermos y familiares o la investigación de las enfermedades neurodegenerativas como ELA, Esclerosis Múltiple...
+
+Familia ILUSIÓN+ contiene en su caja de madera:
+
+ -  Vino tinto PAU PENEDÉS – Garnacha 2015
+
+ -  Vino blanco GINA MONTANT – Garnacha Blanca 2015
+
+ -  Cava FERRAN BRUT RESERVA
+
+ -  Vino tinto PAU MONTSANT – 2013
+
+ -  Vino rosado MONTSE NAVARRA – 2015
+
+ -  Vino tinto PAU PRIORAT – 2008
+"""
+
+[links]
+website = "http://ilusionmas.com/producto/pack-familia-ilusion/"
+facebook = "https://www.facebook.com/ilusionmasvino/"
+twitter = "https://twitter.com/ilusionmas"
+buy = "	http://ilusionmas.com/tienda/"
+
+[price]
+original = "91.5"
+discount = "80.00"

@@ -1,0 +1,27 @@
+{{ $baseurl := .Site.BaseURL }}
+{{ partial "head.html" . }}
+{{ partial "nav.html" . }}
+
+<section style="padding: 100px 0;">
+  <div class="container">
+    <div class="row">
+      <div class="product-banner">
+          <nav class = "product-nav">
+            <h1>Arte y cultura</h1>
+             <a href="/"> inicio</a> / <a href="/arte-y-cultura">Arte y cultura</a>
+          </nav>
+      </div>
+      {{ range .Site.Data.product }}
+        {{ if in .category "Arte y cultura" }}
+          {{ partial "product/li" . }}
+        {{end}}
+      {{ end }}
+      </div>
+  </div>
+</section>
+
+{{ if .Site.Params.footer.enable }}
+    {{ partial "footer.html" . }}
+{{ end }}
+
+{{ partial "js.html" . }}
