@@ -10,6 +10,8 @@ images = [
 [description]
 short = "Kit de tejer - 100% Lana fina - Bufanda"
 long = """
+En *We Are Knitters* estamos especializados en la creación de Kits, donde encontraras todo lo necesario para realizar la prenda deseada
+
 NIVEL FÁCIL EL KIT CONTIENE:
 
 * 4 OVILLOS 100% LANA FINA
@@ -23,7 +25,7 @@ NIVEL FÁCIL EL KIT CONTIENE:
 
 [links]
 website = "http://www.weareknitters.es/kits-tejer/bufandas/ranta-scarf"
-facebook = "https://business.facebook.com/WeAreKnitters.es"
+facebook = "https://es-es.facebook.com/WeAreKnitters/"
 twitter = "https://twitter.com/weareknittersES"
 buy = "http://www.weareknitters.es/kits-tejer/bufandas/ranta-scarf"
 

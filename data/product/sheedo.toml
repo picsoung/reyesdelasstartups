@@ -1,0 +1,32 @@
+name="Sheedo"
+category= ["Ecológico"]
+slug="sheedo"
+images = [
+  "/img/products/sheedo/01.jpg",
+  "/img/products/sheedo/02.jpg",
+  "/img/products/sheedo/03.jpg"
+]
+
+[description]
+short = "Papel de usar y plantar que va a dar vida a tus deseos de Navidad. ¡Tarjetas navideñas ecológicas, artesanas y mágicas!"
+long = """
+En *Sheedo* hemos sustituido el papel de usar y tirar por el de usar y plantar.
+
+Sheedo es un papel único hecho artesanalmente en España a partir de fibras de algodón reutilizadas de la industria textil en vez de celulosa. Por tanto, no talamos árboles para su producción, ni usamos químicos para su blanqueamiento.
+
+El resultado es un papel 100% sostenible.
+
+Pero la magia reside en que tiene semillas en su composición, lo que permite plantarlo tras su uso y cerrar el ciclo del consumo.
+
+¡Puedes personalizarlo con tu diseño o escoger los nuestros! No esperes mas en comprar nuestra edición limitada para estas Navidades.
+"""
+
+[links]
+website = "http://www.sheedo.es"
+facebook = "http://www.facebook.com/sheedopaper/"
+twitter = "http://twitter.com/sheedopaper"
+buy = "http://www.sheedo.es/tienda"
+
+[price]
+original = "2.50"
+discount = "2.00"
