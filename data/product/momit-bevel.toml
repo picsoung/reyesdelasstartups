@@ -1,0 +1,27 @@
+name="Momit Bevel"
+category= ["Tecnología"]
+slug="momit-bevel"
+images = [
+  "/img/products/momit-bevel/01.png",
+  "/img/products/momit-bevel/02.png"
+]
+
+[description]
+short = "Termostato inteligente que te permite controlar la calefacción desde cualquier móvil a través de la App"
+long = """
+Llévalo donde quieras para priorizar la temperatura de cualquier habitación.
+
+Puedes colocarlo en cualquier posición, ya que su pantalla 180º gira automáticamente para mostrarte toda la información sobre su rendimiento.
+
+*momit Bevel* te permite tomar el control de tus gastos gracias a su función exclusiva "My Budget", con la que puedes decidir tu presupuesto energético mensual y monitorizar el consumo y ahorro en tiempo real a través de estadísticas.
+"""
+
+[links]
+website = "https://www.momit.com/es-es/termostato/bevel"
+facebook = "https://www.facebook.com/greenmomit/"
+twitter = "https://twitter.com/momites"
+buy = "	https://www.momit.com/es-es/tienda-online"
+
+[price]
+original = "199.00"
+discount = ""

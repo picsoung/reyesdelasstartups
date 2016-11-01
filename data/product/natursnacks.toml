@@ -1,0 +1,45 @@
+name="Natursnacks"
+category= ["Ecológico"]
+slug="natursnacks"
+images = [
+  "/img/products/natursnacks/01.png",
+  "/img/products/natursnacks/02.png",
+  "/img/products/natursnacks/03.jpg"
+]
+
+[description]
+short = "Aperitivos gourmet deliciosos y saludables, naturales, sin gluten, veganos, sin hornear ni freír."
+long = """
+Ingredientes Sweet Mustard:
+ Kale (Col rizada), pipas de girasol, copos de levadura de cerveza, zumo de limón, vinagre de manzana, miel, mostaza, cebolla, sal, kúrkuma.
+
+La Kale es un tipo de col rizada famosa por sus propiedades y beneficios.
+
+La forma de elaboración es muy sencilla: Se trata de lavar y deshojar la col y después se reboza en una masa a base de pipas de girasol y diferentes especias según el sabor que queremos dar y finalmente lo deshidratamos unas 20 horas a baja temperatura.
+
+● Ideales para sorprender a i​nvitados, como aperitivo​ gourmet nuevo.
+
+● Perfectos como g​uarnición
+
+● Encajan muy bien con vinos y cocteles.
+
+✓ sin aditivos ni conservantes
+
+✓ sin hornear
+
+✓ sin freír
+
+✓ sin liofilizar
+
+✓ sin gluten
+"""
+
+[links]
+website = "http://natursnacks.es/"
+facebook = "https://www.facebook.com/natursnacks.es"
+twitter = "http://twitter.com/natursnacks"
+buy = "http://shop.natursnacks.es/"
+
+[price]
+original = "3.50"
+discount = "3.30"
