@@ -181,6 +181,14 @@ publishdir = "public/"
 				["fa-linkedin", "//linkedin.com/in/nicolasgrenie"]
 			]
 
+			[[params.team.members]]
+				img = "vanessa.jpg"
+				name = "Vanessa Tovar"
+				position = "Designer"
+				social = [
+					["fa-external-link", "//www.pintovar.com"],
+				]
+
 	# Client section
     [params.clients_list]
     enable = false
