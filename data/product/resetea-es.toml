@@ -1,0 +1,38 @@
+name="Kit Atocultivo de Setas"
+category= ["Ecológico"]
+slug="resetea-es"
+images = [
+  "/img/products/resetea-es/02.jpg",
+  "/img/products/resetea-es/01.jpg",
+  "/img/products/resetea-es/03.jpg"
+]
+
+[description]
+short = "Kit para disfrutar dentro de casa de una experiencia fácil, divertida y sostenible."
+long = """
+Con los posos del café hemos creado un kit a través del cual podrás cultivar tus propias setas dentro de casa.
+
+Sólo tienes que seguir unas sencillas instrucciones y en unos días verás como comienzan a brotar tus deliciosas setas.
+
+El café es uno de los cultivos más extendidos del mundo y genera una cantidad ingente de residuos que se acumulan en vertederos emitiendo grandes cantidades de gases efecto invernadero.
+
+Por sus características la Seta Ostra (Pleurotus Ostreatus) es un hongo que se adapta excepcionalmente al sustrato a base de posos de café. Tiene una textura y un sabor magníficos, es un alimento muy nutritivo, rico en vitaminas B y C, proteínas, minerales y antioxidantes. Se le atribuyen propiedades medicinales para la mejora de los niveles de colesterol, la arterioesclerosis y efecto antitumoral.
+
+El kit contiene una bolsa sellada de micelio de seta ostra incubado sobre posos de café. Su uso es muy sencillo, sólo tienes que arrancar la ventana de la caja, hacer un corte en la bolsa, sumergirla en agua 24 horas, meterla de nuevo en la caja y humedecer el sustrato a diario con el pulverizador que se incluye en el kit.
+
+En pocos días comenzarán a brotar tus primeras setas.
+
+De cada kit podrás obtener hasta 3 cosechas, que rondarán los 700-800 gr en total. Recuerda, no tires el sustrato cuando acabes tu cultivo.
+
+Las setas al crecer transforman el sustrato en un excelente abono natural que podrás utilizar en tus macetas o tu huerto.
+"""
+
+[links]
+website = "http://resetea.es"
+facebook = "https://www.facebook.com/resetea.es"
+twitter = "https://twitter.com/resetea_"
+buy = "http://resetea.es/producto/kit-autocultivo-seta-ostra/"
+
+[price]
+original = "21.90"
+discount = ""
