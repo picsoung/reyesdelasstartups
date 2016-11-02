@@ -1,0 +1,35 @@
+name="Om Made Natural Cosmetics	"
+category= ["Moda y Belleza"]
+slug="om-made"
+images = [
+  "/img/products/om-made/01.jpg",
+  "/img/products/om-made/02.jpg"
+]
+
+[description]
+short = "Cosmética 100% natural"
+long = """
+Somos una marca de cosmética 100% natural que nace con la idea de crear conciencia a la hora de comprar productos de cosmética.
+
+Todo lo que proveniente de la Madre Tierra es sagrado, por lo tanto, si se combinan los ingredientes, plantas, aceites, arcillas adecuadamente, serán medicina.
+
+Nuestra misión es cuidar la piel y el bienestar de nuestros consumidores. La madre tierra está atravesando una gran crisis, por eso es urgente y necesario un cambio en el sistema.
+
+En *Om Made* buscamos proteger el medio ambiente, contribuyendo a preservar los recursos naturales y la biodiversidad, tomando consciencia que nuestro planeta no es un recurso ilimitado.
+
+Respetamos y cuidamos a los animales, a la tierra, y a nosotros mismos.
+
+Nuestra marca es 100% libre de crueldad.
+
+Utilizamos procedimientos respetuosos con el medio ambiente, productos orgánicos y materiales reciclados y fomentamos el reciclaje de las botellas de nuestros productos. Gestionamos rigurosamente para evitar todo despilfarro.
+"""
+
+[links]
+website = "http://www.om-made-cosmetics.com/"
+facebook = "http://www.facebook.com/OmMadeBcn"
+twitter = ""
+buy = "	http://www.om-made-cosmetics.com/shop/"
+
+[price]
+original = "15.00"
+discount = ""
