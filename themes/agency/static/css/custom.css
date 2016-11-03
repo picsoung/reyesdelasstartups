@@ -235,3 +235,8 @@ header {
 	/*max-width: 200px;*/
 	/*padding-left: 25%;*/
 }
+
+.btn-xl-red {
+	background-color: #e82c25;
+	border-color: #e82c25;
+}
