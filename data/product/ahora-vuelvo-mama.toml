@@ -1,0 +1,25 @@
+name="Ahora Vuelvo Mamá"
+category= ["Inclasificable"]
+slug="ahora-vuelvo-mama"
+images = [
+  "/img/products/ahora-vuelvo-mama/01.png",
+  "/img/products/ahora-vuelvo-mama/02.png"
+]
+
+[description]
+short = "Vuelos de ida y vuelta el mismo día a una ciudad europea para vivir un día único."
+long = """
+La experiencia *Ahora Vuelvo Mamá* incluye vuelos de ida y vuelta el mismo día desde el aeropuerto de Barcelona El Prat a diferentes ciudades europeas como París, Londres, Milán o Roma.
+
+El objetivo es vivir un día único en una ciudad europea pasando al menos 10 horas reales en esa ciudad y luego volver a casa para cenar.
+"""
+
+[links]
+website = "http://barcelona.ahoravuelvomama.es/"
+facebook = "https://www.facebook.com/ahoravuelvomama/"
+twitter = "https://twitter.com/ahoravuelvomama"
+buy = "http://barcelona.ahoravuelvomama.es/categoria-producto/regala/"
+
+[price]
+original = "49.95"
+discount = ""

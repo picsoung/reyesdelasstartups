@@ -1,0 +1,31 @@
+name="Köllen Bookshelf"
+category= ["Decoración"]
+slug="kollen-bookshelf"
+images = [
+  "/img/products/kollen-bookshelf/01.jpg",
+  "/img/products/kollen-bookshelf/02.jpg",
+  "/img/products/kollen-bookshelf/03.jpg"
+]
+
+[description]
+short = "Estantería modular e interactiva de estilo nórdico."
+long = """
+Estantería creada a partir de la repetición de piezas adaptables al tamaño y forma de los objetos que sostienen.
+
+Su estructura autónoma transfiere un funcionamiento independiente a los listones, así que pueden disponerse en distintas posiciones según el contenido que se coloca.
+
+El producto está formado por piezas independientes, lo cual permite dos posicionamientos posibles. La horizontal permite el apoyo de objetos, actuando como estantes o bien como colgadores. La posición vertical, en cambio, permite reposar objetos relativamente altos sobre los estantes inferiores o bien actúa como elemento decorativo.
+
+Material:
+Madera de abedul de Finlandia con acabados blancos. Dimensiones: 100 x 35 x 15cm / módulo
+"""
+
+[links]
+website = "http://www.kollenbookshelf.com"
+facebook = "	https://www.facebook.com/KollenBookshelf/"
+twitter = "http://www.instagram.com/kollenbookshelf/"
+buy = "http://www.kollenbookshelf.com"
+
+[price]
+original = "440.00"
+discount = "390.00"
