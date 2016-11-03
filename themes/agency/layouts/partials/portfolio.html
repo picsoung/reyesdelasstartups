@@ -9,9 +9,15 @@
         </div>
         <div class="row">
           <ul>
-              {{ range .Site.Data.product}}
+              <!-- {{ range .Site.Data.product}}
                 {{ partial "product/li" . }}
-              {{ end }}
+              {{ end }} -->
+
+              <!-- {{ $len := .Site.Data.product | len }}
+
+                {{ range $d := first 6 (shuffle (seq $len )) }}
+                  {{ partial "product/li" . }}
+                {{ end }} -->
           </ul>
             <!-- {{ range .Site.Data.projects }}
             <div class="col-md-4 col-sm-6 portfolio-item">
