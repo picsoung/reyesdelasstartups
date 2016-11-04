@@ -1,0 +1,27 @@
+name="Humper"
+category= ["Moda y belleza"]
+slug="humper"
+images = [
+  "/img/products/humper/01.jpg",
+  "/img/products/humper/02.jpg"
+]
+
+[description]
+short = "Mochilas confeccionadas a mano en cáñamo desde Nepal en proyectos de reinserción de mujeres."
+long = """
+*Hemper* es una startup española formada por seis jóvenes amigos que pretende demostrar que, en la industria textil, la sostenibilidad y la innovación social pueden ir perfectamente de la mano de la pasión por la moda y el gusto por el diseño.
+
+Todas estas premisas se conjugan en sus mochilas, diseñadas por ellos y confeccionadas artesanalmente con tejidos de cáñamo desde Kathmandú (Nepal) en proyectos de reinserción de mujeres en riesgo de exclusión social y laboral.
+
+Las etiquetas pueden plantarse tras su uso y colaboran en distintos proyectos sociales.
+"""
+
+[links]
+website = "http://www.hemper.es"
+facebook = "	http://www.facebook.com/hemperbags/"
+twitter = ""
+buy = "http://www.hemper.es/tienda/annapurna-azul/"
+
+[price]
+original = "40.00"
+discount = ""
