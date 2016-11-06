@@ -33,3 +33,4 @@ buy = "	http://www.om-made-cosmetics.com/shop/"
 [price]
 original = "15.00"
 discount = ""
+from_price = true

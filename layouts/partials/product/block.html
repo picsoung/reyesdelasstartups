@@ -53,6 +53,9 @@
         {{end}}
       </div>
       <div class="product-price">
+        {{if .price.from_price}}
+          <span>desde</span>
+        {{end}}
           {{if .price.discount}}
             <del>€{{ .price.original}}</del>
             &nbsp;
