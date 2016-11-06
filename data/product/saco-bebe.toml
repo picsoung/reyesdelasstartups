@@ -1,0 +1,29 @@
+name="Saco bebe"
+category= ["Infantil"]
+slug="saco-bebe"
+images = [
+  "/img/products/saco-bebe/01.jpg",
+  "/img/products/saco-bebe/02.jpg",
+  "/img/products/saco-bebe/03.jpg"
+]
+
+[description]
+short = "Saco bebe universal invierno"
+long = """
+Saco perfecto para cualquier capazo, cuna, moises, etc.. medida de 1000x800 mm aproximadamente.
+
+Se puede utilizar como manta ya que se abre totalmente
+
+
+**5 euros de descuento con codigo: _reyes_**
+"""
+
+[links]
+website = "http://www.entretelas.tienda/productos/saco-bebe/saco-bebecojin-estrellacojin-rectangulo/"
+facebook = "https://www.facebook.com/entretelastienda/posts/1769274066647000/"
+twitter = "https://twitter.com/EntretelasShop/status/794289924925165569"
+buy = "http://www.entretelas.tienda/productos/saco-bebe/saco-bebecojin-estrellacojin-rectangulo/"
+
+[price]
+original = "80.00"
+discount = "75.00"
