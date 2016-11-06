@@ -1,0 +1,36 @@
+name="Viuing"
+category= ["Deporte"]
+slug="viuing"
+images = [
+  "/img/products/viuing/02.jpg",
+  "/img/products/viuing/01.jpg",
+  "/img/products/viuing/03.jpg"
+]
+
+[description]
+short = "Nueva experiencia en tiempo real para los fans"
+long = """
+*Viuing* es una empresa especializada en llevar la fan experience a otro nivel. A través de un dispositivo diseñado con la última tecnología, VIU retransmite a tiempo real todo lo que ocurre durante los grandes eventos.
+
+Ahora los fans podrán disfrutar de su pasión como nunca antes. Sentirán la emoción de vivir el directo y, por primera vez, con Viuing no se perderán ni un solo detalle.
+
+Vive el partido al máximo con tu VIU.
+
+Dispositivo audiovisual recargable de 4h de duración.
+
+Válido durante 12 meses desde la fecha de compra.
+
+¡Forma parte del espectáculo!
+
+¡Vive tu momento!
+"""
+
+[links]
+website = "https://www.viuing.com/"
+facebook = "https://www.facebook.com/viuing/"
+twitter = "https://twitter.com/Viuing"
+buy = "https://www.viuing.com/es/compra-online"
+
+[price]
+original = "39.90"
+discount = ""
