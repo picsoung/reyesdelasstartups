@@ -4,7 +4,8 @@ slug="natursnacks"
 images = [
   "/img/products/natursnacks/01.png",
   "/img/products/natursnacks/02.png",
-  "/img/products/natursnacks/03.jpg"
+  "/img/products/natursnacks/03.png",
+  "/img/products/natursnacks/04.jpg"
 ]
 
 [description]
