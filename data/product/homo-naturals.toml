@@ -1,0 +1,45 @@
+name="HOMO NATURALS"
+category= ["Moda y Belleza"]
+slug="homo-naturals"
+images = [
+  "/img/products/homo-naturals/01.jpg",
+  "/img/products/homo-naturals/01.jpg"
+]
+
+[description]
+short = "La primera marca de cosmética masculina 100% natural"
+long = """
+¿POR QUÉ NATURAL?
+
+Investigar sobre los beneficios y adquirir productos cada vez más sanos y naturales, es una tendencia que con el tiempo se ha ido trasladando a diferentes ámbitos de nuestra vida incluido la del cuidado personal.
+
+Hoy en día la gran mayoría de cosméticos están hechos a base de ingredientes derivados del petróleo. Incluso los que dicen ser “naturales” utilizan sólo cantidades simbólicas de ingredientes vegetales pero sin los beneficios reales que éstos aportan a la piel. Es ahí donde surge la pregunta.
+
+¿ES MÁS EFECTIVA LA COSMETICA NATURAL?
+
+La verdadera cosmética natural no contiene sustancias artificiales ni químicas que pongan en riesgo la salud o puedan causar reacciones alérgicas. Es más eficaz para nuestra piel. Numerosas investigaciones demuestran que las moléculas naturales son mucho más efectivas que las sintéticas y se adaptan mejor a la piel permitiendo una absorcion más profunda de nuestra piel de los principios activos que se encuentran en los extractos naturales.
+
+Cada vez aparecen más estudios que indican que los ingredientes utilizados en cosmética convencional llegan a nuestro organismo a través de la piel y con el tiempo se acumulan en nuestros órganos causando problemas de salud.
+
+NUESTROS PRODUCTOS ESTÁN LIBRES DE:
+·Aceites minerales derivados del petróleo, aceites minerales, parafinas, vaselinas y siliconas
+·Aceites o ingredientes de procedenica animal
+·Colorantes y Perfumes sintéticos
+·Alcohol, Fenoles y Alquifenoles añadidos
+·Conservantes sintéticos como parabenos, BHT, BHA, Phenoxyetanol, Triclosan, EDTA, Etanolaminas
+·Sustancias organohalógenas
+·Compuestos etoxilados como PEGS o PPG
+·Tensioactivos aniónicos y anfotéricos como SLS, SLES, Cocoamidoproyl betaine.
+
+**Descuento con codigo: _REYESHN_**
+"""
+
+[links]
+website = "http://www.homonaturals.com/es/"
+facebook = "https://es-es.facebook.com/pages/Homo-Naturals/223059214473654/"
+twitter = "https://twitter.com/homonaturals"
+buy = "http://www.homonaturals.com/es/shop"
+
+[price]
+original = "87.50"
+discount = "74.00"

@@ -1,0 +1,33 @@
+name="Nyasa Glawi Carbon"
+category= ["Moda y Belleza"]
+slug="meller-gafas"
+images = [
+  "/img/products/meller-gafas/01.jpg",
+  "/img/products/meller-gafas/02.jpg",
+  "/img/products/meller-gafas/03.jpg",
+  "/img/products/meller-gafas/04.jpg"
+]
+
+[description]
+short = "Gafas de diseñador en policarbonato"
+long = """
+Las gafas de montura redonda fueron un éxito en los 60 y ahora vuelven a la carga.
+
+*Meller ofrece* un amplio abanico de colores, con más de diez variedades de diseños.
+
+Es el modelo más redondo que ofrece la marca, se caracteriza por la montura de policarbonato y el puente metálico.
+
+El nombre se debe a uno de los lagos tropicales más grandes de África.
+
+**Descuento con codigo: _losreyesdelasstartup_**
+"""
+
+[links]
+website = "http://mellerbrand.com"
+facebook = "	http://www.facebook.com/mellerbrand/"
+twitter = "http://twitter.com/Mellerbrand"
+buy = "http://mellerbrand.com"
+
+[price]
+original = "35"
+discount = "29.75"
