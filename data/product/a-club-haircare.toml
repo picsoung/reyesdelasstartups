@@ -1,0 +1,32 @@
+name="HDR Hydrating Shampoo"
+category= ["Moda y Belleza"]
+slug="a-club-haircare"
+images = [
+  "/img/products/a-club-haircare/HDR.png",
+  "/img/products/a-club-haircare/LQD.png",
+  "/img/products/a-club-haircare/SEA.png"
+]
+
+[description]
+short = "Shampoo muy hidratante con hyaluronato sódico, agentes acondicionadores y una fragancia de menta añadida a la piña colada."
+long = """
+Shampoo muy hidratante y de tacto muy suave.
+
+Fragancia de menta añadida a la Piña Colada para darle un punto fresco y profundo y evitar que aborrezca el punto muy afrutado de la Piña Colada.
+
+Compatible con Barbas también, fácil de aplicar, espuma generosa, tacto muy suave y sensación fresca.
+
+Contiene : hialurónico, aceite esencial de menta.
+
+Fragancia de menta añadida a la Piña Colada.
+"""
+
+[links]
+website = "http://www.theaclubhaircare.com/es/productos/hydrating-shampoo"
+facebook = "http://www.facebook.com/The-A-Club-Haircare-798099740279578/"
+twitter = ""
+buy = "http://www.theaclubhaircare.com"
+
+[price]
+original = "18.30"
+discount = ""
