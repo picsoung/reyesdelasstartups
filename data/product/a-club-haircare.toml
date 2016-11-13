@@ -1,14 +1,14 @@
-name="HDR Hydrating Shampoo"
+name="The A Club haircare - HDR Hydrating Shampoo"
 category= ["Moda y Belleza"]
 slug="a-club-haircare"
 images = [
-  "/img/products/a-club-haircare/HDR.png",
-  "/img/products/a-club-haircare/LQD.png",
-  "/img/products/a-club-haircare/SEA.png"
+  "/img/products/a-club-haircare/HDR Hydrating Shampoo  - The A Club.jpg",
+  "/img/products/a-club-haircare/IMG_4313-HDR logo.jpg",
+  "/img/products/a-club-haircare/Responsible ingredients.png"
 ]
 
 [description]
-short = "Shampoo muy hidratante con hyaluronato sódico, agentes acondicionadores y una fragancia de menta añadida a la piña colada."
+short = "Productos capilares para “Ladies & Gentlemen”, diseñado por estilistas internacionales. "
 long = """
 Shampoo muy hidratante y de tacto muy suave.
 
@@ -16,14 +16,16 @@ Fragancia de menta añadida a la Piña Colada para darle un punto fresco y profu
 
 Compatible con Barbas también, fácil de aplicar, espuma generosa, tacto muy suave y sensación fresca.
 
-Contiene : hialurónico, aceite esencial de menta.
+Contiene : hialurónico, aceite esencial de menta, agentes acondicionadores.
 
 Fragancia de menta añadida a la Piña Colada.
+
+Los productos han sido desarrollados con el fin de alcanzar una óptima eficiencia en los resultados, promoviendo el uso de “responsible ingredients”. Es promover lo natural sin renunciar a vivir con agentes modernos más actuales, solo si cumplen la normativa de EU regulación 1223/2009 para cosméticos.
 """
 
 [links]
 website = "http://www.theaclubhaircare.com/es/productos/hydrating-shampoo"
-facebook = "http://www.facebook.com/The-A-Club-Haircare-798099740279578/"
+facebook = "https://www.facebook.com/The-A-Club-Haircare-798099740279578"
 twitter = ""
 buy = "http://www.theaclubhaircare.com"
 
