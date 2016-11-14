@@ -1,0 +1,32 @@
+name="Cajas de tés gourmet"
+category= ["Gourmet"]
+slug="libertea"
+images = [
+  "/img/products/libertea/01.jpg",
+  "/img/products/libertea/02.jpg",
+  "/img/products/libertea/03.jpg"
+]
+
+[description]
+short = "Bonitas boxes de tés gourmet para disfrutar de tu momento relax"
+long = """
+*Libertea* te propone una experiencia de té.
+
+Es tu momento relax con esta box de 5 cajitas de 25g de tés gourmet.
+
+"African Dream", "Good morning chérie", "So green" o "En los trópicos" son los nombres de nuestros surtidos de tés negro, verde, blanco, oolong, rooibos, puerh o infusiones con sabores floral, afrutado, especiado , natural , cítrico, mentolado y más...
+
+En cada caja te presentamos cada uno de los tés, sus beneficios para la salud y la mejor manera de prepararlo.
+
+**Descuento con codigo _reyes_**
+"""
+
+[links]
+website = "http://libertea.es/categoria-producto/mis-cajas/"
+facebook = "http://www.facebook.com/LiberteaShop/"
+twitter = "http://twitter.com/liberteashop"
+buy = "http://libertea.es/categoria-producto/mis-cajas/"
+
+[price]
+original = "20"
+discount = "18"
