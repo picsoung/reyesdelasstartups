@@ -191,26 +191,25 @@ publishdir = "public/"
 
 	# Client section
     [params.clients_list]
-    enable = false
+    enable = true
 
     	# All the clients' logos are stored under 'static/img/logos'.
     	# Replace them with your clients's logos.
     	[[params.clients]]
-    		logo = "envato.jpg"
-    		link = "#"
+    		logo = "pnpmag_logo.png"
+    		link = "http://magazine.pickandpow.com/los-reyes-de-las-startups-encuentra-ideas-fuera-de-lo-comun-para-la-navidad/"
 
-    	[[params.clients]]
-    		logo = "designmodo.jpg"
-    		link = "#"
-
-    	[[params.clients]]
-    		logo = "themeforest.jpg"
-    		link = "#"
-
-    	[[params.clients]]
-    		logo = "creative-market.jpg"
-    		link = "#"
-
+    	# [[params.clients]]
+    	# 	logo = "designmodo.jpg"
+    	# 	link = "#"
+			#
+    	# [[params.clients]]
+    	# 	logo = "themeforest.jpg"
+    	# 	link = "#"
+			#
+    	# [[params.clients]]
+    	# 	logo = "creative-market.jpg"
+    	# 	link = "#"
 
 	# Contact section
 	[params.contact]
