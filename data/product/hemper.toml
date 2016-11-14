@@ -1,9 +1,9 @@
-name="Humper"
+name="Hemper"
 category= ["Moda y Belleza"]
-slug="humper"
+slug="hemper"
 images = [
-  "/img/products/humper/01.jpg",
-  "/img/products/humper/02.jpg"
+  "/img/products/hemper/01.jpg",
+  "/img/products/hemper/02.jpg"
 ]
 
 [description]
