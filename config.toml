@@ -203,9 +203,10 @@ publishdir = "public/"
     		logo = "startup_celebrate.png"
     		link = "https://medium.com/@penelopel_/how-we-united-200-startups-in-our-country-how-you-could-too-9071daeabaf1#.ltbcp2e6n"
 
-    	# [[params.clients]]
-    	# 	logo = "themeforest.jpg"
-    	# 	link = "#"
+    	[[params.clients]]
+    		logo = "french-tech-bcn.png"
+    		link = "http://barcelona.lafrenchtech.com/blog/8/los-reyes-de-las-startups"
+				
 			#
     	# [[params.clients]]
     	# 	logo = "creative-market.jpg"
