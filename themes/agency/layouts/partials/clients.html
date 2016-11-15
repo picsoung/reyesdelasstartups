@@ -2,8 +2,9 @@
 <aside class="clients">
     <div class="container">
         <div class="row">
+
+          {{$len := len .Site.Params.clients}}
             {{ range .Site.Params.clients }}
-              {{$len := len (slice (.Site.Params.clients))}}
             <div class="col-md-{{div 12 $len}} col-sm-{{div (div 12 $len) 2}}">
                 <a href="{{ .link }}"  target="_blank"
                 onclick="trackOutboundLink('{{ .links}}'); return false;">

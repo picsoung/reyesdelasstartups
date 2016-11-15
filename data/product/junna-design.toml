@@ -1,0 +1,32 @@
+name="Vestidos Gotas"
+category= ["Infantil"]
+slug="junna-design"
+images = [
+  "/img/products/junna-design/vestido-infantil-gotas-pose-junna-design.jpg",
+  "/img/products/junna-design/vestido-infantil-gotas-junna-design.jpg",
+  "/img/products/junna-design/vestido-infantil-gotas-estampado-junna-design.jpg"
+]
+
+[description]
+short = "Moda infantil con diseños de estampados exclusivos"
+long = """
+DIBUJANDO HISTORIAS DE COLORES.
+
+Moda infantil con estampados exclusivos. El proceso, tras la elaboración del moodboard o panel de inspiración, da paso a la ilustración y diseño de los diferentes elementos que componen la colección.
+
+Elementos trabajados con diferentes técnicas y materiales como acuarela, tinta, acrílico, pastel, rotulador… que aportan personalidad y trabajo artesanal a través del trazo, la textura, la gradación del color… para dar como resultado final diseños únicos y llenos de frescura.
+
+Unos diseños que posteriormente se trabajan en digital para realizar los patterns, patrones o motivos con los que imprimiremos las telas finales bajo procesos ecológicos con tintas a base de agua.
+
+Estas telas de algodón 100% impresas, pasan al taller de confección, donde son cortadas y cosidas en un proceso totalmente artesanal hasta convertirse en cada una de las prendas de la colección.
+"""
+
+[links]
+website = "http://www.junnadesign.com"
+facebook = "http://www.facebook.com/junnadesign"
+twitter = ""
+buy = "http://www.junnadesign.com"
+
+[price]
+original = "55"
+discount = ""
