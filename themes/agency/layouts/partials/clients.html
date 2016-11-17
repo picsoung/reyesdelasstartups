@@ -5,14 +5,20 @@
           <div class="col-lg-12 text-center">
               <h2 class="section-heading">Hablan de nosotros</h2>
             </div>
-          {{$len := len .Site.Params.clients}}
-            {{ range .Site.Params.clients }}
-            <div class="col-md-{{div 12 $len}} col-sm-{{div (div 12 $len) 2}}">
-                <a href="{{ .link }}"  target="_blank"
-                onclick="trackOutboundLink('{{ .links}}'); return false;">
-                    <img src="img/logos/{{ .logo }}" class="img-responsive img-centered" style="max-width: 300px;" alt="">
-                </a>
-            </div>
+            {{$len := len .Site.Params.clients}}
+            {{ range $index, $element :=  .Site.Params.clients }}
+              {{if eq (mod $index  3) 0}} <!-- new row every 3 elements -->
+                <div class="row">
+              {{end}}
+              <div class="col-md-{{div 12 3}} col-sm-{{div (div 12 3) 2}}">
+                  <a href="{{ .link }}"  target="_blank"
+                  onclick="trackOutboundLink('{{ .links}}'); return false;">
+                      <img src="img/logos/{{ .logo }}" class="img-responsive img-centered" style="max-width: 300px;max-height: 200px;" alt="">
+                  </a>
+              </div>
+              {{if eq (mod $index  3) 2}}
+                </div> <!-- end of row -->
+              {{end}}
             {{ end }}
         </div>
     </div>

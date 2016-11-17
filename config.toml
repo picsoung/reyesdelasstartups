@@ -206,11 +206,15 @@ publishdir = "public/"
     	[[params.clients]]
     		logo = "french-tech-bcn.png"
     		link = "http://barcelona.lafrenchtech.com/blog/8/los-reyes-de-las-startups"
-				
+
 			#
-    	# [[params.clients]]
-    	# 	logo = "creative-market.jpg"
-    	# 	link = "#"
+    	[[params.clients]]
+    		logo = "TGB-Logo.png"
+    		link = "https://www.mixcloud.com/TGBradio/people-on-the-grid-with-los-reyes-de-las-startups/"
+
+			[[params.clients]]
+    		logo = "logo-usine-digitale.png"
+    		link = "www.usine-digitale.fr/article/le-noel-de-la-french-tech-fait-des-emules-a-l-etranger.N464653"
 
 	# Contact section
 	[params.contact]
