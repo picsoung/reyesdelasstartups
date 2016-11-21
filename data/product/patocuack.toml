@@ -1,0 +1,26 @@
+name="Taza patocuack"
+category= ["Inclasificable"]
+slug="patocuack"
+images = [
+  "/img/products/patocouack/2-superduck.jpg",
+  "/img/products/patocouack/5-star-war.jpg",
+  "/img/products/patocouack/0-logo.jpg"
+]
+
+[description]
+short = "Tazas divertidas"
+long = """
+Patocuack es una marca que ofrece diseños divertidos sobre un mundo de patos (principalmente).
+
+Es una fusión entre la creatividad y el humor materializado en tazas y en diversos objetos que se convierten en una opción perfecta para regalar
+"""
+
+[links]
+website = "http://www.patocuack.com"
+facebook = "https://www.facebook.com/patopatras/"
+twitter = ""
+buy = "http://www.patocuack.com/"
+
+[price]
+original = "12.99"
+discount = ""
