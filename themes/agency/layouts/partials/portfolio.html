@@ -10,13 +10,13 @@
         <div class="row">
           <ul>
             {{ range .Site.Data.product }}
-              {{ if eq .slug "britebox" }}
+              {{ if eq .slug "seed-box-spice-box" }}
                 {{ partial "product/li" . }}
               {{end}}
-              {{ if eq .slug "wimy" }}
+              {{ if eq .slug "sheedo" }}
                 {{ partial "product/li" . }}
               {{end}}
-              {{ if eq .slug "resetea-es" }}
+              {{ if eq .slug "om-made" }}
                 {{ partial "product/li" . }}
               {{end}}
             {{ end }}
