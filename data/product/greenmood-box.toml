@@ -1,0 +1,36 @@
+name="Greenmood Box"
+category= ["Ecológico"]
+slug="greenmood-box"
+images = [
+  "/img/products/greenmood-box/caja-mensual-ecologica.jpg",
+  "/img/products/greenmood-box/PACKSHOT1-12l-1.jpg",
+  "/img/products/greenmood-box/Cosmetica-Natural-1.png",
+]
+
+[description]
+short = "La caja mensual Eco-lifestyle 100% natural. Belleza, Bienestar & Healthy food"
+long = """
+Una caja temática pensada para mujeres que quieran descubrir alternativas saludables.
+
+– 4/5 productos a precio reducido.
+
+– 100% naturales y orgánicos.
+
+– Full size o formatos de viaje.
+
+– ¡Sin compromiso de permanencia!
+
+Descubre los mejores productos ecológicos, inovadores & modernos sin moverte de casa.
+
+**10% de descuento con codigo _REYES_**
+"""
+
+[links]
+website = "http://www.greenmoodbazaar.com"
+facebook = "https://www.facebook.com/greenmoodbazaar/"
+twitter = ""
+buy = "http://www.greenmoodbazaar.com/productos-ecologicos/vida-sana/"
+
+[price]
+original = "25.00"
+discount = "22.50"
