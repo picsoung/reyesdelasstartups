@@ -4,7 +4,9 @@ slug="fillin-lamp"
 images = [
   "/img/products/fillin-lamp/01.jpg",
   "/img/products/fillin-lamp/02.jpg",
-  "/img/products/fillin-lamp/03.jpg"
+  "/img/products/fillin-lamp/03.jpg",
+  "/img/products/fillin-lamp/04.png",
+  "/img/products/fillin-lamp/05.png"
 ]
 
 [description]
